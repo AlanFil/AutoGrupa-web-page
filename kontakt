@@ -1,0 +1,73 @@
+<head>
+	<meta charset="utf-8">
+	<title> AutoGrupa </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+</head>
+
+<body>
+
+
+ <div id="container">
+<!------------------ INDEX ------------------>	
+	<div id="index">
+<a href="index.html"><div id="logo" ></div></a>
+<div class="option" id="kontakt"><a href="kontakt.html" 		 class="option-tilelink">	KONTAKT			</a></div>
+<div class="option">			 <a href="o_nas.html"		 class="option-tilelink">	O NAS			</a></div>
+<div class="option">			 <a href="jak_to_dziala.html" class="option-tilelink">	JAK TO DZIAŁA? 	</a></div>
+<div class="option">			 <a href="samochody.html"	 class="option-tilelink">	SAMOCHODY		</a></div>
+	</div>
+	
+	
+<div id="kontakt-content">
+ <!-- LEFT --->
+ <div id="kontakt-left">
+	<big style="font-size:25px;"><b> Autogrupa sp. z o.o. </big></br>
+	<b style="line-height:0px;">_________________________</b></br></br>
+	<b>Jasielska 14C/35, 60-476 Poznań, Polska</br>
+	KRS:</b> 0000802362</br>
+	<b>REGON:</b> 384287320</br></br>
+	biuro@autogrupa.com.pl</b></p></br>
+	
+	Sebastian Schnierl</br>
+	<small>sebastian.schnierl@autogrupa.com.pl</small></br></br>
+	+48 <b>791 877 962</b></br></br></br>
+ 
+	Paweł Wunderse</br>
+	<small>pawel.wunderse@autogrupa.com.pl</small></br></br>
+	+48 <b>518 194 160</b></br>
+ 
+ </div>
+ <!-- RIGHT -->
+ <div id="kontakt-right">
+	<div style="margin-left:25px;">
+		<p>Imię i nazwisko*</p>
+		<input type="text" size="95">
+		<p>Firma</p>
+		<input type="text" size="95">
+		<p>Email kontaktowy*</p>
+		<input type="text" size="95">
+		<p>Numer telefonu*</p>
+		<input type="text" size="95">
+		<p>Treść wiadomości</p>
+		<textarea rows="10" cols="96"></textarea>
+		</br></br>
+		<p>* - pola obowiązkowe<p>
+		<label><input type="checkbox"> <small> ZGADZAM SIĘ... 	</small></label></br>
+		<label><input type="checkbox"> <small> RODO... 			</small></label>
+		</br></br></br></br></br>
+		<div style="background-color:#156596; padding:10px 20px; color:white; float:right; margin: 13px; cursor:pointer;">WYŚLIJ NAM SWOJE ZAPYTANIE</div>
+	</div>
+ </div>	
+</div>
+</div>
+</div>
+
+ <footer>
+	 <p>
+		<i class="icon-mail-alt"></i>&nbsp;&nbsp;biuro@autogrupa.com.pl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<i class="icon-phone"></i>&nbsp;&nbsp; +48 <b>791 877 962</b>&nbsp;&nbsp;&nbsp;&nbsp;+48 <b>518 194 160</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 </p>
+</footer>
+</body>
