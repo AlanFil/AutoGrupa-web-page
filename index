@@ -1,0 +1,33 @@
+<head>
+	<meta charset="utf-8">
+	<title> AutoGrupa </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+</head>
+
+<body id="index-body">
+ <div id="container">
+<!------------------ INDEX ------------------>	
+	<div id="index" style="background-color:transparent; border-bottom:0px;">
+<a href="index.html"><div id="logo" style="width:370px; height:70px;"></div></a>
+<div class="option" id="kontakt"><a href="kontakt.html" 		 class="option-tilelink">	KONTAKT			</a></div>
+<div class="option">			 <a href="o_nas.html"		 class="option-tilelink">	O NAS			</a></div>
+<div class="option">			 <a href="jak_to_dziala.html" class="option-tilelink">	JAK TO DZIAŁA? 	</a></div>
+<div class="option">			 <a href="samochody.html"	 class="option-tilelink">	SAMOCHODY		</a></div>
+	</div>
+	
+<!------------------ CONTENT ---------------->	
+	<div>
+	 <p class="index-text" style="margin-top:18%">SAMOCHODY, KTÓRE SPRAWIAJĄ PRZYJEMNOŚĆ</p>
+	 <p class="index-text"><b style="font-size:210%;">WYBIERZ SWOJE AUTO</b></p>
+	 <p class="index-text">TUTAJ ZNAJDZIESZ NAJLEPSZE OFERTY SAMOCHODÓW MAREK PREMIUM</p>
+	
+		
+		<div id="button" class="option" style="float:none;"><a href="../samochody.html" style="text-decoration:none; color:white;"><p id="index-button">SAMOCHODY</p></a></div>
+		
+	</div>
+	
+	
+ </div>
+</body>
