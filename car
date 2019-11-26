@@ -1,0 +1,78 @@
+<head>
+	<meta charset="utf-8">
+	<title> AutoGrupa </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+</head>
+
+<body>
+
+
+ <div id="container">
+<!------------------ INDEX ------------------>	
+	<div id="index">
+<a href="index.html"><div id="logo" ></div></a>
+<div class="option" id="kontakt"><a href="kontakt.html" 		 class="option-tilelink">	KONTAKT			</a></div>
+<div class="option">			 <a href="o_nas.html"		 class="option-tilelink">	O NAS			</a></div>
+<div class="option">			 <a href="jak_to_dziala.html" class="option-tilelink">	JAK TO DZIAŁA? 	</a></div>
+<div class="option">			 <a href="samochody.html"	 class="option-tilelink">	SAMOCHODY		</a></div>
+	</div>
+	
+	
+<!------------------ CONTENT ---------------->	
+	<div id="car-content">
+		<div >
+			<img src="img/nujs-car.jpg" id="car-photo"/>
+		</div>
+		
+		<div id="car-price-box">
+			<div class="car-price-lr">1 000 000 zł</div>
+			<div class="car-price-lr">5 000 zł</div>
+		</div>
+		
+		<div id="car-description">
+			<div class="car-description-lr">
+				<p class="description">Marka:				</p>
+				<p class="description">Model: 				</p>
+				<p class="description">Wersja wyposażenia:  </p>
+				<p class="description">Rocznik: 			</p>
+				<p class="description">Kolor: 				</p>
+			</div>
+			<div class="car-description-lr">
+				<b><p class="description">Batmobil		</p></b>
+				<b><p class="description">BR10			</p></b>
+				<b><p class="description">Inscription	</p></b>
+				<b><p class="description">2019			</p></b>
+				<b><p class="description">czarny		</p></b>		
+			</div>
+			
+			
+			<div class="car-description-lr">
+				<p class="description">Nadwozie: 		</p>
+				<p class="description">Paliwo: 			</p>
+				<p class="description">Skrzynia biegów: </p>
+				<p class="description">Silnik: 			</p>
+				<p class="description">Moc: 			</p>
+			</div>
+			<div class="car-description-lr">
+				<b><p class="description">SUV		</p></b>
+				<b><p class="description">benzyna	</p></b>
+				<b><p class="description">automat	</p></b>
+				<b><p class="description">BAT5		</p></b>
+				<b><p class="description">400KM		</p></b>		
+			</div>
+			
+			<div id="car-description2"> WYPOSAZENIE</div>
+			
+		</div>
+	</div>
+ </div>
+<!------------------ FOOTER ----------------->	
+	<footer>
+	 <p>
+		<i class="icon-mail-alt"></i>&nbsp;&nbsp;biuro@autogrupa.com.pl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<i class="icon-phone"></i>&nbsp;&nbsp; +48 <b>791 877 962</b>&nbsp;&nbsp;&nbsp;&nbsp;+48 <b>518 194 160</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 </p>
+	</footer>
+</body>
