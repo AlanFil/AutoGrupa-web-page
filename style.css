@@ -1,0 +1,408 @@
+/**************** GLOBAL ****************/
+body{
+    margin: 0;
+    padding: 0;
+	font-family: "arial narrow";}
+	
+#index{
+	height:36px;
+	background-color:#07293e;
+	border-bottom:3px solid #156596;}
+
+#logo{
+	margin-top: 6px;
+	margin-left: 15px;
+	float:left;
+	height:33px;
+	width:180px;
+	background-image: url("img/logo_white.png");
+	background-repeat: no-repeat;
+	background-size: cover;}
+
+.option{
+	letter-spacing:1.5px;
+	font-size:16px;
+	float:right;
+	height:auto;
+	text-align:center;
+	color:white;}
+.option-tilelink{
+	color:white;
+	display:block;
+	text-decoration:none;
+	padding: 9px 30px;}
+.option:hover{
+	color:white;
+	border-bottom:3px solid white;
+	background-color:#0e3e5c;
+	-webkit-animation: fadein 0.1s; /* Safari, Chrome and Opera > 12.1 */
+	   -moz-animation: fadein 0.1s; /* Firefox < 16 */
+		-ms-animation: fadein 0.1s; /* Internet Explorer */
+		 -o-animation: fadein 0.1s; /* Opera < 12.1 */
+			animation: fadein 0.1s;*/}
+#kontakt{margin-right:20px;}
+
+#container{
+	height:auto;
+	width:auto;}
+
+footer {
+	text-align:right;
+	width: 100%;
+	background-color: #07293e;
+	color: white;
+	border-top:3px solid #156596;
+	position: fixed;
+	bottom: 0;
+	height: 50px;}
+
+/**************** INDEX_PAGE ****************/
+#index-body{
+	background-image: url("img/home_background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.index-text{
+	color:white;
+	font-size:150%;
+	text-align:center;
+	object-position: center top;}
+
+#button{
+	background-color:#093a59;
+	margin:auto;
+	width:150px;
+	height:40px;
+	text-align:center;}
+
+#index-button{
+	line-height: 40px;
+	height:40px;
+	text-decoration:none;
+	font-size:20px;
+	width:max-width;
+	margin:auto;}
+
+/**************** SAMOCHODY *****************/
+#samochody-content{
+	width:900px;
+	height:auto;
+	margin:10px auto auto auto;
+	overflow: auto;}
+
+#swoj-samochod{
+	font-size:40px;
+	line-height:150px;
+	background-image: url("img/samochody_background.png");
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 150px;}
+	
+#samochod-border{
+	border-left: 4px solid #10527b;
+	border-right:4px solid #10527b;
+	padding: 0px 14px;
+}
+
+/*** LEFT ****/
+.filtr-samochody{
+	color:white;
+	width:200px;
+	min-height:80px;
+	background-color:#10527b;
+	box-shadow: 0px 2px 4px grey;}
+
+.filtr{
+	line-height:25px;
+	height:25px;
+	text-align:center;
+	color:white;
+	margin: 4px 0px 10px 0px;
+	width:100px;
+	float:left;
+	background-color:#156596;
+	box-shadow: 0px 2px 4px grey;
+}
+
+
+/*** RIGHT ***/
+
+#list{
+	width:690px;
+	min-height:100px;
+	float:left;}
+
+.outer-position{
+	width: 690px;
+	height: 100px;
+	clear:both;
+	margin-top:10px;}
+
+.img-position{
+	width:180px;
+	height:100px;
+	float:left;
+	box-shadow: 0px 1px 5px grey;}
+
+.list-position{
+	width: 505px;
+	height: 90px;
+	float:left;
+	overflow: hidden;
+	margin-left:5px;
+	background-color:#eee;
+	transition:all 0.4s ease 0s;
+	color:#10527b;
+	box-shadow: 0px 1px 5px grey;
+	border-bottom:10px solid  #10527b;}
+	
+.list-position:hover{
+	transition:all 0.4s ease 0s;
+	width: 505px;
+	height: 210px;
+	margin-left: 5px;
+	float:left;
+	background-color:#ddd;
+}
+
+
+	
+.car-name {
+	padding: 3px 0px 0px 8px;
+	font-size:20px;
+	margin:0px;
+	font-weight: bold;
+}
+
+.car-year{
+	padding-left:4px;
+	color:#156596;
+	margin:0px;
+	font-weight: normal;
+}
+
+.car-price{
+	margin-top:23px;
+	margin-bottom:20px;
+	color:white;
+	background-color:#10527b;
+	float:right;
+	line-height:40px;
+	width:160px;
+	text-align:center;
+	font-weight: bold;
+	font-size:18px;
+	margin-left:1px;}
+
+.car-left{
+	margin-left: 10px;
+	width:150px;
+	float:left;
+}
+
+.car-right{
+	width:230px;
+	float:left;
+}
+
+.szczegoly{
+	font-size:12px;
+	float:left;
+	margin-top: 40px;
+	width:100px;
+	line-height:30px;
+	background-color:#07293e;
+	color:white;
+	text-align:center;
+}
+.szczegoly-tilelink{
+	color:white;
+	display:block;
+	text-decoration:none;
+	width:100px;
+	line-height:30px;
+	}
+
+.szczegoly:hover{
+	background-color:#183a4f;
+}
+
+/**************** JAK TO DZIALA *************/
+#jtd{
+	color:#156596;
+	text-align:center;
+	font-weight:normal;
+	letter-spacing: 2px;
+}
+
+#jak-to-dziala{
+	width: 900px;
+	height: auto;
+	margin: auto;
+	margin-bottom:100px;}
+
+.jak-to-dziala-img{
+	width: 900px;
+	height: auto;
+	margin-top:15px;
+	box-shadow: 0px 7px 10px grey;
+}
+/**************** O_NAS *********************/
+
+#o-nasy{
+	width: auto;
+	background-color:white;
+}
+
+#o-nas1{
+	font-size:26px;
+	color:#1d4b70;
+	width:700px;
+	margin: 40px auto;
+	padding-left:10px;
+	border-left: 5px solid #1d4b70;
+}
+	
+#o-nas2{
+	font-size:25px;
+	color:white;
+	width: auto;
+	margin: 40px auto;
+	background-color:#093a59;
+	border-bottom:5px solid #10527b;
+}
+
+.p1{
+	text-align:center;
+}
+
+.p2{
+	font-size:22px;
+	line-height:30px;
+	padding-left:10px;
+	border-left:3px solid #10527b;
+	width:500px;
+	text-align:left;
+	margin:auto;
+}
+
+	
+#o-nas3{
+	padding-top:40px;
+	width: auto;
+	min-height: 100px;
+}
+
+#button-o-nas{
+	margin-left: 23%;
+	border-left: 15px solid #10527b;
+	background-color:#093a59;
+	padding: 0px 30px;
+	float: left;
+}
+
+
+.p3{
+	font-size:25px;
+	color:white;
+	text-decoration:none;
+}
+/**************** KONTAKT *******************/
+#kontakt-content{
+	margin: 50px auto 50px auto;
+	width: 1100px;
+	color:#10527b;
+}
+
+#kontakt-left{
+	font-size:18px;
+	min-height:100px;
+	width:350px;
+	float: left;
+	}
+
+#kontakt-right{
+	min-height:100px;
+	width:740px;
+	float: left;
+	background-color:#eee;
+	margin-bottom: 200px;
+	border-bottom: 5px solid #10527b;
+	border-right: 5px solid #10527b;
+}
+
+/**************** CAR ***********************/
+#car-content{
+	width: 800px;
+	height: auto;
+	margin: 50px auto 100px auto;
+}
+
+#car-photo{
+	width: 100%;
+	height: auto;
+	margin-top:15px;
+}
+	/*box-shadow: 0px 7px 10px grey;*/
+#car-price-box{
+	width:100%;
+	height:40px;
+	background-color:#07293e;
+	border-bottom: 8px solid #156596;
+}
+
+.car-price-lr{
+	letter-spacing:2px;
+	margin:0px;
+	line-height: 40px;
+	height:100%;
+	width:50%;
+	float:left;
+	text-align: center;
+	color:white;
+	font-size:32px;
+	font-weight:bold;
+}
+
+#car-description{
+	margin-top: 10px;
+	background-color: #ededed;
+	width: 100%;
+	height: 240px;	
+}
+
+.car-description-lr{
+	margin-left: 15px;
+	float:left;
+	width: 180px;
+	font-size: 20px;
+}
+
+#car-description2{
+}
+
+/**************** DEFINITIONS ***************/
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }}
