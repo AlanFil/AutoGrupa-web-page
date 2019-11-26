@@ -1,0 +1,209 @@
+<head>
+	<meta charset="utf-8">
+	<title> AutoGrupa </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+</head>
+
+<body>
+
+
+ <div id="container">
+<!------------------ INDEX ------------------>	
+	<div id="index">
+<a href="index.html"><div id="logo" ></div></a>
+<div class="option" id="kontakt"><a href="kontakt.html" 		 class="option-tilelink">	KONTAKT			</a></div>
+<div class="option">			 <a href="o_nas.html"		 class="option-tilelink">	O NAS			</a></div>
+<div class="option">			 <a href="jak_to_dziala.html" class="option-tilelink">	JAK TO DZIAŁA? 	</a></div>
+<div class="option">			 <a href="samochody.html"	 class="option-tilelink">	SAMOCHODY		</a></div>
+	</div>
+	
+<!------------------ CONTENT ---------------->
+<div id="samochody-content">
+<!-- UPPER IMAGE -->
+	<div>
+	 <p id="swoj-samochod" class="index-text"><b id="samochod-border">WYBIERZ SWÓJ SAMOCHÓD</b></p>
+	</div>
+
+<!----- LEFT ------->
+	<div style=" margin-right:10px; margin-bottom:150px; width:200px; float: left;">
+	
+		<div class="filtr-samochody" style="background-color:#156596">
+			<h3 style="margin:10px; padding-top:5px;">Marka</h3>
+			<div style="padding-left:8px; padding-bottom:4px;" ><label><input type="checkbox"> Audi </label></div>
+			<div style="padding-left:8px; padding-bottom:4px;" ><label><input type="checkbox"> BMW </label></div>
+			<div style="padding-left:8px; padding-bottom:4px;" ><label><input type="checkbox"> Jaguar </label></div>
+			<div style="padding-left:8px; padding-bottom:4px;" ><label><input type="checkbox"> Jeep </label></div>
+			<div style="padding-left:8px; padding-bottom:4px;" ><label><input type="checkbox"> Mazda </label></div>
+			<div style="padding-left:8px; padding-bottom:4px;" ><label><input type="checkbox"> Volkswagen </label></div>
+			<div style="padding-left:8px; padding-bottom:10px;"><label><input type="checkbox"> Volvo </label></div>
+		</div>
+		
+		<div class="filtr-samochody">
+			<h3 style="margin:8px; padding-top:5px;">Rok</h3></br>
+			<label style="margin-left:10px;"> od <input type="text" size="4"> do <input type="text" size="4"></label>
+		</div>
+		
+		<div class="filtr-samochody">
+			<h3 style="margin:8px; padding-top:5px;">Rodzaj paliwa</h3></br>
+			<div style="padding-left:8px; padding-bottom:4px;"><label><input type="radio"> Wszystkie </label></div>
+			<div style="padding-left:8px; padding-bottom:4px;"><label><input type="radio"> Benzyna </label></div>
+			<div style="padding-left:8px; padding-bottom:10px;"><label><input type="radio"> Diesel </label></div>
+		</div>
+		
+		<div class="filtr-samochody">
+			<h3 style="margin:8px; padding-top:5px;">Skrzynia biegów</h3></br>
+			<div style="padding-left:8px; padding-bottom:4px;"><label><input type="radio"> Automatyczna </label></div>
+			<div style="padding-left:8px; padding-bottom:10px;"><label><input type="radio"> Manualna </label></div>
+		</div>
+			
+		<div class="filtr-samochody">
+			<h3 style="margin:8px; padding-top:5px;" >Wyposażenie</h3></br>
+			<div style="padding-left:8px; padding-bottom:4px; "><label><input type="checkbox"> ABS </label></div>
+			<div style="padding-left:8px; padding-bottom:4px; "><label><input type="checkbox"> ASR </label></div>
+			<div style="padding-left:8px; padding-bottom:4px; "><label><input type="checkbox"> Klimatyzacja </label></div>
+			<div style="padding-left:8px; padding-bottom:4px; "><label><input type="checkbox"> Tempomat </label></div>
+			<div style="padding-left:8px; padding-bottom:8px;"><label><input type="checkbox"> Webasto </label></div>
+		</div>
+		
+		<div class="filtr"> Filtruj </div>
+		<div class="filtr" style="background-color:#07293e;"	 > Reset   </div>
+	</div>
+	
+<!----- RIGHT ------>
+	<div id="list">
+		
+	 <div style="float:left;">
+<!-- 1. CAR -->
+		<div class="outer-position">
+			<img src="img/nujs-car.jpg" class="img-position"/>
+			
+			<div class="list-position">
+				<div class="car-upper">
+					<p class="car-name">Batmobil <small class="car-year">2019</small></p>
+					
+					<div class="car-price">	<!--------------------------------------------------> 1 000 000zł </div>
+					<div class="car-price" style="background-color:#156596; margin-left: 100px;"> 5 000zł/msc </div>
+				</div>
+				
+				
+				<div class="car-left">
+					<li>Paliwo:			</br><b style="margin-left:22px;"> benzyna  </b></li></br>
+					<li>Skrzynia biegów:</br><b style="margin-left:22px;"> manualna </b></li>
+				</div>
+				
+				
+				<div class="car-right">
+					<li>Moc: 			</br><b  style="margin-left:22px;"> 300KM 	   </b></li></br>
+					<li>Silnik:			</br><b  style="margin-left:22px;"> 3 000 cm3 </b></li>
+				</div>
+				
+				<div class="szczegoly"> <a href="car.html" class="szczegoly-tilelink"> SZCZEGÓŁY </a></div>
+			</div>
+		</div>
+		
+<!-- 2. CAR -->
+		<div class="outer-position">
+			<img src="img/nujs-car.jpg" class="img-position"/>
+			
+			<div class="list-position">
+				<div class="car-upper">
+					<p class="car-name">Batmobil <small class="car-year">2019</small></p>
+					
+					<div class="car-price">	<!--------------------------------------------------> 1 000 000zł </div>
+					<div class="car-price" style="background-color:#156596; margin-left: 100px;"> 5 000zł/msc </div>
+				</div>
+				
+				
+				<div class="car-left">
+					<li>Paliwo:			</br><b style="margin-left:22px;"> benzyna  </b></li></br>
+					<li>Skrzynia biegów:</br><b style="margin-left:22px;"> manualna </b></li>
+				</div>
+				
+				
+				<div class="car-right">
+					<li>Moc: 			</br><b  style="margin-left:22px;"> 300KM 	   </b></li></br>
+					<li>Silnik:			</br><b  style="margin-left:22px;"> 3 000 cm3 </b></li>
+				</div>
+				
+				<div class="szczegoly"> <a href="car.html" class="szczegoly-tilelink"> SZCZEGÓŁY </a></div>
+			</div>
+		</div>
+		
+<!-- 3. CAR -->
+		<div class="outer-position">
+			<img src="img/nujs-car.jpg" class="img-position"/>
+			
+			<div class="list-position">
+				<div class="car-upper">
+					<p class="car-name">Batmobil <small class="car-year">2019</small></p>
+					
+					<div class="car-price">	<!--------------------------------------------------> 1 000 000zł </div>
+					<div class="car-price" style="background-color:#156596; margin-left: 100px;"> 5 000zł/msc </div>
+				</div>
+				
+				
+				<div class="car-left">
+					<li>Paliwo:			</br><b style="margin-left:22px;"> benzyna  </b></li></br>
+					<li>Skrzynia biegów:</br><b style="margin-left:22px;"> manualna </b></li>
+				</div>
+				
+				
+				<div class="car-right">
+					<li>Moc: 			</br><b  style="margin-left:22px;"> 300KM 	   </b></li></br>
+					<li>Silnik:			</br><b  style="margin-left:22px;"> 3 000 cm3 </b></li>
+				</div>
+				
+				<div class="szczegoly"> <a href="car.html" class="szczegoly-tilelink"> SZCZEGÓŁY </a></div>
+			</div>
+		</div>
+		
+<!-- 4. CAR -->
+
+		<div class="outer-position">
+			<img src="img/nujs-car.jpg" class="img-position"/>
+			
+			<div class="list-position">
+				<div class="car-upper">
+					<p class="car-name">Batmobil <small class="car-year">2019</small></p>
+					
+					<div class="car-price">	<!--------------------------------------------------> 1 000 000zł </div>
+					<div class="car-price" style="background-color:#156596; margin-left: 100px;"> 5 000zł/msc </div>
+				</div>
+				
+				
+				<div class="car-left">
+					<li>Paliwo:			</br><b style="margin-left:22px;"> benzyna  </b></li></br>
+					<li>Skrzynia biegów:</br><b style="margin-left:22px;"> manualna </b></li>
+				</div>
+				
+				
+				<div class="car-right">
+					<li>Moc: 			</br><b  style="margin-left:22px;"> 300KM 	   </b></li></br>
+					<li>Silnik:			</br><b  style="margin-left:22px;"> 3 000 cm3 </b></li>
+				</div>
+				
+				<div class="szczegoly"> <a href="car.html" class="szczegoly-tilelink"> SZCZEGÓŁY </a></div>
+			</div>
+		</div>
+		
+		
+			
+
+		</div>
+
+<!-- SCRIPT -->
+	</div>
+
+</div>
+</div>
+<!------------------ FOOTER ----------------->	
+	<footer>
+	 <p>
+		<i class="icon-mail-alt"></i>&nbsp;&nbsp;biuro@autogrupa.com.pl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<i class="icon-phone"></i>&nbsp;&nbsp; +48 <b>791 877 962</b>&nbsp;&nbsp;&nbsp;&nbsp;+48 <b>518 194 160</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 </p>
+	</footer>
+</div>
+</body>
