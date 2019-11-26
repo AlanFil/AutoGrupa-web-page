@@ -1,0 +1,60 @@
+<head>
+	<meta charset="utf-8">
+	<title> AutoGrupa </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+</head>
+
+<body>
+
+
+ <div id="container">
+<!------------------ INDEX ------------------>	
+	<div id="index">
+<a href="index.html"><div id="logo" ></div></a>
+<div class="option" id="kontakt"><a href="kontakt.html" 		 class="option-tilelink">	KONTAKT			</a></div>
+<div class="option">			 <a href="o_nas.html"		 class="option-tilelink">	O NAS			</a></div>
+<div class="option">			 <a href="jak_to_dziala.html" class="option-tilelink">	JAK TO DZIAŁA? 	</a></div>
+<div class="option">			 <a href="samochody.html"	 class="option-tilelink">	SAMOCHODY		</a></div>
+	</div>
+	
+	<div id="o-nasy" style="margin-bottom:100px;">
+		<div id="o-nas1">
+			Dzięki współpracy z instytucjami finansowymi takimi jak banki, fundusze gwarancyjne oraz
+			towarzystwa ubezpieczeniowe możemy zapewnić kompleksową obsługę związaną z zakupem
+			samochodu.
+		</div>
+
+		<div id="o-nas2">
+			</br>
+			<p class="p1">Oferujemy usługi związane z:</p>
+				<li class="p2">profesjonalnym doradztwem przy wyborze pojazdu</li>
+				<li class="p2">zakup pojazdu</li>
+				<li class="p2">atrakcyjne formy finansowania</li>
+				<li class="p2">kredyt samochodowy</li>
+				<li class="p2">leasing samochodowy</li>
+				<li class="p2">wynajem pojazdu</li>
+				<li class="p2" style="border-bottom: 3px solid #10527b; padding-bottom: 10px;">ubezpieczenie pojazdu</li>
+			</br></br></br>
+		</div>
+
+		<div id="o-nas3">
+
+				<a href="../jak_to_dziala.html"><div id="button-o-nas"							><p class="p3">Jak to działa? </p></div><a>
+				<a href="../samochody.html">	<div id="button-o-nas" style="margin-left: 27%;"><p class="p3">Nasze samochody</p></div><a>
+
+		</div>
+
+	</div>
+
+<footer>
+	 <p>
+		<i class="icon-mail-alt"></i>&nbsp;&nbsp;biuro@autogrupa.com.pl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<i class="icon-phone"></i>&nbsp;&nbsp; +48 <b>791 877 962</b>&nbsp;&nbsp;&nbsp;&nbsp;+48 <b>518 194 160</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 </p>
+</footer>
+
+ </div>
+ 
+</body>
