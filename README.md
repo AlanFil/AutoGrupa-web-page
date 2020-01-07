@@ -19,7 +19,7 @@ Here is nothing of interest - just some text and pictures displayed.
 connect.php - 
 Contains data that allows to connect to database.
 
-admin-work.php, delcar.php, newcar.php, slog.php, logout.php - 
+admin-work.php, delcar.php, newcar.php, slog.php, zaloguj.php, logout.php - 
 Those files contains code that allows non-informatician admin to add or delete cars from page. You can guess content of it by filenames. It collects most of PHP code.
 
 style.css - 
