@@ -1,5 +1,5 @@
 # AutoGrupa-web-page
-It is my first done commercial web page that I've created. It is avalible on page: www.autogrupa.com.pl. Source file containts buch of ordinary HTML5, CSS3, PHP, a little of JavaScript and some more interesting like adjusting visual content to mobile. It goes like this:
+It is my almost-done first done commercial web page that I've created. It is avalible on page: www.autogrupa.com.pl. Source file containts buch of ordinary HTML5, CSS3, PHP, a little of JavaScript and some more interesting like adjusting visual content to mobile. It goes like this:
 
 index.php - 
 That file is a starting view where you can find code adjusting content to mobile. The rest isn't anything special
